@@ -1,7 +1,3 @@
-# PF2e Apparatus alpha
-
-Early testing builds for invited GM friends. Downloads are public; please share feedback with Moonshie.
-
 ## Install
 
 In Foundry Setup, open **Add-on Modules → Install Module**, paste a manifest URL and click **Install**.
@@ -21,11 +17,6 @@ Foundry will offer the declared dependencies, including any dependencies of PF2e
 Use Foundry Setup's normal module update controls. Keep using these same manifest URLs.
 Only published alpha builds appear here; development commits are not automatic releases.
 Each player can choose Modern or Classic in Apparatus UI's module settings.
-
-## Feedback
-
-Send Moonshie the two module versions, Foundry/PF2e/PF2e HUD versions and steps to reproduce the issue.
-Use a backup or copy of a world for initial alpha testing.
 
 ## Distribution
 
