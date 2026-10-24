@@ -1,0 +1,117 @@
+{
+  "id": "pf2e-apparatus",
+  "title": "PF2e Apparatus",
+  "version": "14.0.1",
+  "description": "<p>PF2e automations plus an integrated action, reaction, and hand-management tracker.</p>",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Moonshie",
+      "discord": "moonshie",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/action-tracker.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "pf2e-apparatus-macros",
+      "label": "PF2e Apparatus Macros",
+      "path": "packs/pf2e-apparatus-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pf2e-apparatus-effects",
+      "label": "PF2e Apparatus Effects",
+      "path": "packs/pf2e-apparatus-effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PF2e Apparatus",
+      "sorting": "a",
+      "folders": [],
+      "packs": [
+        "pf2e-apparatus-macros",
+        "pf2e-apparatus-effects"
+      ],
+      "color": null
+    }
+  ],
+  "socket": true,
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-hud",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.53.0"
+        }
+      },
+      {
+        "id": "pf2e-toolbelt",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.54.1"
+        }
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "trigger-engine",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/Moonshie/pf2e-apparatus-alpha/main/pf2e-apparatus/module.json",
+  "download": "https://github.com/Moonshie/pf2e-apparatus-alpha/releases/download/alpha-001/pf2e-apparatus.zip",
+  "url": "https://github.com/Moonshie/pf2e-apparatus-alpha"
+}
