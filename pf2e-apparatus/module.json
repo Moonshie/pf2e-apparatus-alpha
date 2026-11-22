@@ -1,7 +1,7 @@
 {
   "id": "pf2e-apparatus",
   "title": "PF2e Apparatus",
-  "version": "14.0.2",
+  "version": "14.0.3",
   "description": "<p>PF2e automations plus an integrated action, reaction, and hand-management tracker.</p>",
   "compatibility": {
     "minimum": "14",
@@ -112,6 +112,6 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/Moonshie/pf2e-apparatus-alpha/main/pf2e-apparatus/module.json",
-  "download": "https://github.com/Moonshie/pf2e-apparatus-alpha/releases/download/alpha-002/pf2e-apparatus.zip",
+  "download": "https://github.com/Moonshie/pf2e-apparatus-alpha/releases/download/alpha-003/pf2e-apparatus.zip",
   "url": "https://github.com/Moonshie/pf2e-apparatus-alpha"
 }
